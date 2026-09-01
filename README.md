@@ -1,22 +1,43 @@
-# Claudia Prompt Optimizer (CPO)
+# ⚡ Claudia Prompt Optimizer (CPO)
 
-**A High-Precision AI Prompt Optimizer Framework.**
+> **Framework Pengoptimal Prompt AI Presisi Tinggi untuk Rekayasa Perangkat Lunak & Arsitektur Sistem.**
 
-This repository contains a framework for converting standard, conversational instructions into highly structured, context-dense architectural prompts for Large Language Models (LLMs). It forces LLMs to stop "guessing" and start acting as deterministic system architects.
-
-## Why Use This?
-Most LLMs are trained on English datasets. Sending complex logical tasks in secondary languages (or informal, unstructured text) leads to context decay, hallucination, and edge-case failures.
-
-The **Claudia Prompt Optimizer** (CPO) serves as a blueprint template. When you inject this template into your AI's context (or use it to format your own prompts), it forces the AI to output zero-fluff, highly precise code or logic.
-
-## Usage
-Copy the contents of `optimizer_system_prompt.md` and use it as your System Prompt, or prepend it to your complex engineering requests.
-
-## Framework Architecture
-- **Role Locking:** Forces the AI into a "High-Precision Architect" mode.
-- **Minimal Diff:** Instructs the AI to only edit what is strictly necessary.
-- **Constraints Enforcement:** Eradicates conversational AI boilerplate ("Certainly!", "Here is the code...").
-- **Language Native Translation:** Processes logic natively in English for maximum token efficiency and reasoning depth.
+Repositori ini berisi framework terstruktur untuk mengubah instruksi percakapan informal menjadi prompt teknis berdensitas tinggi (*high-density architectural directives*) bagi Model Bahasa Besar (LLM). Framework ini memaksa LLM untuk berhenti "menebak" dan bertindak sebagai arsitek sistem deterministik dengan akurasi maksimal.
 
 ---
-*Status: Public Release - Strategy Generalized.*
+
+## 🎯 Mengapa Membutuhkan Framework Ini?
+
+Sebagian besar model AI canggih dilatih terutama pada korpus dataset teknis berbahasa Inggris. Mengirimkan tugas logika yang rumit menggunakan bahasa percakapan informal sering kali memicu:
+1. **Context Decay**: Hilangnya batasan teknis atau aturan ketat di tengah percakapan panjang.
+2. **Halusinasi & Asumsi Liar**: AI menambahkan fitur, kode spekulatif, atau pustaka baru yang tidak diminta.
+3. **Fluff & Basa-Basi**: Output dipenuhi kalimat pembuka dan penutup tidak penting yang menghabiskan token.
+
+**Claudia Prompt Optimizer (CPO)** bertindak sebagai cetak biru sistem. Saat diinjeksikan ke dalam *System Prompt* atau instruksi rekayasa, model AI dipaksa menghasilkan solusi kode yang presisi, ringkas (*zero-fluff*), dan berbasis fakta empiris.
+
+---
+
+## 🚀 Cara Penggunaan
+
+1. Buka file [`optimizer_system_prompt.md`](./optimizer_system_prompt.md).
+2. Salin seluruh konten ke dalam kolom **System Prompt** di platform AI pilihan Anda (Claude, ChatGPT, Gemini, Antigravity, OpenClaw, Cursor, dll).
+3. Anda dapat langsung memberikan instruksi dalam Bahasa Indonesia sehari-hari, dan sistem secara otomatis mensintesisnya ke dalam arahan teknis berpresisi tinggi.
+
+---
+
+## 🏗️ Pilar Arsitektur Framework
+
+- **Role Locking (Penguncian Peran)**: Memposisikan AI secara permanen sebagai *"High-Precision Architect Mode"*.
+- **Root Cause & Minimal Diff**: Membatasi AI agar hanya mengubah baris yang rusak tanpa *refactoring* spekulatif atau pembuatan file berlebih.
+- **Enforcement Invarian Tanpa Kompromi**: Menghilangkan sepenuhnya respons klise ("Tentu, ini kodenya...", "Semoga membantu!").
+- **Zero Hallucination Invariant**: Melarang AI membuat data, metrik, atau hasil tes tiruan tanpa verifikasi nyata dari alat/terminal.
+- **Internal Synthesis Engine**: Memproses representasi logika internal dalam densitas tinggi demi kedalaman penalaran maksimal.
+
+---
+
+## 📄 Lisensi
+
+Didistribusikan di bawah **MIT License**. Bebas dimanfaatkan dan disesuaikan untuk kebutuhan alur kerja rekayasa perangkat lunak mandiri maupun tim.
+
+---
+*Status: Public Release — High-Precision Strategy Engine.*
